@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import CartCount from './cart/CartCount'
 import CartItem from './cart/CartItem'
-import CartEmpty from './cart/cartEmpty'
+import CartEmpty from './cart/CartEmpty'
 import { useDispatch, useSelector } from 'react-redux'
 import { setCloseCart, selectCartState, selectCartItems, setClearCartItems, setGetTotals, selectTotalAmount, selectTotalQTY } from "../redux/CartSlice.js";
 
